@@ -1782,8 +1782,8 @@ EN-US;mso-fareast-language:#00FF;mso-bidi-language:AR-SA"><a href="mailto:costel
                                 }
                             
                                 // apply position and zoom
-                                // from map URL http://www.openstreetmap.org/#map=18/48.88680/2.34235&layers=C
-                                var params = 'htthttps://www.openstreetmap.org/?mlat=45.64875&mlon=25.77138#map=19/45.64874/25.77138p://www.openstreetmap.org/#map=18/48.87378/2.29489&layers=C'.match(/.*map=([0-9]*)\/(.*)\/(.*)&layers=(.)/);
+                                // from map URL http://www.openstreetmap.org/#map=18/48.88680/2.34235&layers=C https://www.openstreetmap.org/?mlat=45.64875&mlon=25.77138#map=19/45.64874/25.77138
+                                var params = 'https://www.openstreetmap.org/?mlat=45.64875&mlon=25.77138#map=19/45.64874/25.77138'.match(/.*map=([0-9]*)\/(.*)\/(.*)&layers=(.)/);
                                 if(params) {
                                     var zoom = parseFloat(params[1]);
                                     var lat = parseFloat(params[2]);
