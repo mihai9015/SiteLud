@@ -1,0 +1,19 @@
+/* header */
+
+.lud-header-nav.navbar{
+    background-color: #413F3C;
+    color: white;
+    padding: 0px;
+}
+.lud-header-nav li a{
+    color: inherit;
+}
+.lud-header-nav li:not(:last-child) a:hover, .lud-header-nav li:not(:last-child) a:active {
+    font-weight: 700;
+}
+.lud-header-nav .navbar-brand{
+    padding: 0px 5px 0 5px;
+}
+.lud-header-nav.navbar .dropdown-menu{
+    min-width: unset;
+}
