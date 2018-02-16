@@ -17,3 +17,60 @@
 .lud-header-nav.navbar .dropdown-menu{
     min-width: unset;
 }
+.content-height{
+    height: 500px;
+}
+.welder-bg{
+    background-image: url('../images/welderV3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.self-center{
+    align-self: center;
+}
+.flex{
+    display: flex;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.welder-text{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+.welder-container{
+    background-color: #403E3B;
+    opacity: 0.8;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.fade-in{
+    animation: fadein 3s;
+}
+@keyframes fadein{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* About us section */
+.about-container{
+    margin-top: 40px;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.about-pic{
+    background-image: url("../images/sudor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    max-width: 360px;
+    margin-top: 20px;
+    border-radius: 30rem;
+    margin: 0 auto;
+}
+.flip{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
