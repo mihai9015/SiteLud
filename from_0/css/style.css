@@ -59,6 +59,8 @@
     margin-top: 40px;
     padding: 20px 0;
     justify-content: space-between;
+    word-wrap: break-word;
+    overflow: auto;
 }
 .about-pic{
     background-image: url("../images/sudor.png");
@@ -73,4 +75,12 @@
 .flip{
     transform: rotateY(180deg);
     backface-visibility: hidden;
+}
+.map{
+    height: 400px;
+    width: 100%;
+    padding-top: 10px
+}
+.contact{
+    background-color: rgba(13, 27, 42, 1);
 }
