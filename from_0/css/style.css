@@ -17,9 +17,10 @@
 .lud-header-nav.navbar .dropdown-menu{
     min-width: unset;
 }
+/*
 .content-height{
-   /* height: 500px; */
-}
+    height: 500px; 
+}*/
 
 .content-height-home{
      height: 500px; 
