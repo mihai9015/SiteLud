@@ -13,6 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "@ish/eslint-config": "^1.1.0",
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "eslintConfig": {
+    "extends": "@ish/eslint-config/dashboard"
   }
 }
