@@ -30,25 +30,33 @@
 </head>
 
 <body>
-    <nav class="navbar lud-header-nav justify-content-center fixed-top" id="top-nav">
-        <span class="navbar-brand">
-            <img src="images/logo.png" width="84" height="50" alt="">
+    <nav class="navbar navbar-expand-md lud-header-nav navbar-dark fixed-top" id="top-nav">
+        <span class="navbar-brand lug-logo-large">
+          <img class="lud-brand-img" src="images/logo.png" width="84" height="50" alt="">
         </span>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link trn" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link trn" href="#about-us">About us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link trn" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link trn" href="#contact">Contact</a>
-            </li>
-            <button id="btn_lang" class="btn btn-secondary" role="button">EN</button>
-        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center text-center" id="navbarSupportedContent">
+            <span class="navbar-brand lug-logo-small">
+               <img class="lud-brand-img" src="images/logo.png" width="84" height="50" alt="">
+            </span>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link trn" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link trn" href="#about-us">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link trn" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link trn" href="#contact">Contact</a>
+                </li>
+                <button id="btn_lang" class="btn btn-secondary lud-lang" role="button">EN</button>
+            </ul>
+        </div>
     </nav>
     <div class="lud-sections">
         <!-- Home Section -->
@@ -169,12 +177,12 @@
         <div class="contact-container">
             <div class="lud-full-width container-fluid">
                 <div class="row lud-padder-top">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="lud-map-container">
                             <div id="map" class="lud-map"></div>
                         </div>
                     </div>
-                    <div class="col-md-5" style="padding: 0 3rem">
+                    <div class="col-md-5 lud-hide" style="padding: 0 3rem">
                         <form class="form-horizontal" action="" method="post">
                             <fieldset>
                                 <legend class="text-center text-light">Contact us</legend>
@@ -213,7 +221,7 @@
                         </form>
 
                     </div>
-                    <div class="col-md-3 lud-adress">
+                    <div class="col-md-6 lud-adress">
                         <h4 class=" text-white">S.C. LUDWIC STELL S.R.L.</h4>
                         <address class=" text-white">
                             <br> 653 H Zizinului Street, Tarlungeni, Romania

@@ -1,5 +1,7 @@
 /* header */
-
+.lud-brand-img{ 
+    border-radius: 10rem 
+}
 .lud-header-nav.navbar{
     background-color: #413F3C;
     color: white;
@@ -17,6 +19,10 @@
 .lud-header-nav.navbar .dropdown-menu{
     min-width: unset;
 }
+.lud-lang{
+    width: 50px;
+    margin: 0 auto;
+}
 
 .home-container{
      height: 500px; 
@@ -31,6 +37,9 @@
 }
 .lud-flex{
     display: flex;
+}
+.lud-hide{
+    display: none;
 }
 .uppercase{
     text-transform: uppercase;
@@ -109,4 +118,20 @@
 }
 .lud-full-width{
     width: 100%;
+}
+@media (min-width: 768px){
+    .lug-logo-large{
+        display: none;
+    }
+    .lug-logo-small{
+        display: inline;
+    }
+}
+@media (max-width: 768px){
+    .lug-logo-large{
+        display: inline;
+    }
+    .lug-logo-small{
+        display: none;
+    }
 }
