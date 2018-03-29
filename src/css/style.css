@@ -17,18 +17,19 @@
 .lud-header-nav.navbar .dropdown-menu{
     min-width: unset;
 }
-.content-height{
-    height: 500px;
-}
+
+.home-container{
+     height: 500px; 
+ }
 .welder-bg{
     background-image: url('../images/welderV3.jpg');
     background-size: cover;
     background-position: center;
 }
-.self-center{
+.lud-self-center{
     align-self: center;
 }
-.flex{
+.lud-flex{
     display: flex;
 }
 .uppercase{
@@ -46,31 +47,66 @@
     margin: 0 auto;
     padding: 10px;
 }
-.fade-in{
-    animation: fadein 3s;
+.lud-fade-in{
+    animation: lud-fadein 3s;
 }
-@keyframes fadein{
+@keyframes lud-fadein{
     from {opacity: 0;}
     to {opacity: 1;}
 }
 
 /* About us section */
-.about-container{
-    margin-top: 40px;
-    padding: 20px 0;
+.about-container, .portfolio-container, .home-container{
+    padding: 40px 0;
+    display: flex;
     justify-content: space-between;
 }
-.about-pic{
-    background-image: url("../images/sudor.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+@keyframes about-pic-anim {
+    from {transform: initial}
+    to {transform: rotateY(360)}
+}
+.lud-about-pic{
+    animation: about-pic-anim;
     height: 300px;
     max-width: 360px;
     margin-top: 20px;
     border-radius: 30rem;
     margin: 0 auto;
 }
-.flip{
+.lud-flip{
     transform: rotateY(180deg);
-    backface-visibility: hidden;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+/* Contact section */
+.lud-map-container{
+    padding: 0.7rem 0 0 2rem;
+}
+.lud-map{
+    height: 435px;
+    width: 100%;
+    min-width:200px;
+    min-height:400px;
+}
+.contact-container{
+    background-color: rgba(13, 27, 42, 1);
+    padding-bottom: 20px;
+}
+.lud-padder-top{
+    padding-top: 1.5rem;
+}
+.lud-adress{
+    padding-top: 0.2rem;
+}
+.lud-sections{
+    position: relative;
+}
+.lud-anchors{
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.lud-full-width{
+    width: 100%;
 }
